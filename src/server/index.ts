@@ -53,9 +53,6 @@ async function init(): Promise<void> {
     } else {
      ctx.set('Cache-Control', 'no-store');
     }
-    if (ctx.path == '/') {
-      ctx.set('Link', '</images/products/carrot/001.jpg>; rel="preload"');
-    }
     await next();
   });
 
