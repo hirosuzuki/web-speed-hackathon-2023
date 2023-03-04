@@ -9,6 +9,7 @@ import route from 'koa-route';
 import send from 'koa-send';
 import session from 'koa-session';
 import serve from 'koa-static';
+import compress from 'koa-compress';
 
 import type { Context } from './context';
 import { dataSource } from './data_source';
@@ -23,6 +24,22 @@ async function init(): Promise<void> {
   await dataSource.initialize();
 
   const app = new Koa();
+
+  // https://github.com/koajs/compress
+  app.use(compress({
+    filter (content_type: string) {
+      return /text/i.test(content_type)
+    },
+    threshold: 2048,
+    gzip: {
+      flush: require('zlib').constants.Z_SYNC_FLUSH
+    },
+    deflate: {
+      flush: require('zlib').constants.Z_SYNC_FLUSH,
+    },
+    br: false // disable brotli
+  }))
+
   const httpServer = http.createServer(app.callback());
 
   app.keys = ['cookie-key'];
