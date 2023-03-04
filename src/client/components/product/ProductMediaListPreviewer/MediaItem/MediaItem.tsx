@@ -21,6 +21,11 @@ export const MediaItem: FC<Props> = ({ file }) => {
     if (mediaType === 'image') {
       return setImageSrc(file.filename);
     }
+    // console.log("media:", mediaType, file.filename)
+    if (mediaType === 'video') {
+      const filename = file.filename
+      return setImageSrc(filename.substring(0, filename.length - 4) + ".jpg");
+    }
     loadThumbnail(file.filename).then((url) => setImageSrc(url));
   }, [file.filename, mediaType]);
 
@@ -28,9 +33,13 @@ export const MediaItem: FC<Props> = ({ file }) => {
     return null;
   }
 
+  const conv_tiny_image_filename = (fn: string) => {
+    return fn.substring(0, fn.length - 4) + "-t.jpg"
+  }
+
   return (
     <div className={styles.container()}>
-      <Image fill src={imageSrc} />
+      <Image fill src={conv_tiny_image_filename(imageSrc)} />
       {mediaType === 'video' && (
         <div className={styles.playIcon()}>
           <Icon color="#ffffff" height={16} type="FaPlay" width={16} />

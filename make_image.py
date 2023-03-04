@@ -7,7 +7,7 @@ for fn in files:
         print("*", orig_fn)
         new_fn = orig_fn[5:-4] + ".jpg"
         subprocess.call(["convert", orig_fn, "-quality", "85", new_fn])
-        new_fn = orig_fn[:-4] + "-s.jpg"
+        new_fn = orig_fn[5:-4] + "-s.jpg"
         subprocess.call(["convert", orig_fn, "-resize", "224", "-quality", "85", new_fn])
-        new_fn = orig_fn[:-4] + "-t.jpg"
+        new_fn = orig_fn[5:-4] + "-t.jpg"
         subprocess.call(["convert", orig_fn, "-resize", "120", "-quality", "85", new_fn])
