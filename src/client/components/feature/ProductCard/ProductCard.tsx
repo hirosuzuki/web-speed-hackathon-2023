@@ -20,13 +20,17 @@ export const ProductCard: FC<Props> = ({ product }) => {
   const { activeOffer } = useActiveOffer(product);
   const price = activeOffer?.price ?? product.price;
 
+  const conv_small_image_filename = (fn: string) => {
+    return fn.substring(0, fn.length - 4) + "-s.jpg"
+  }
+
   return (
     <Anchor href={`/product/${product.id}`}>
       <div className={styles.inner()}>
         {thumbnailFile ? (
           <div className={styles.image()}>
             <AspectRatio ratioHeight={9} ratioWidth={16}>
-              <Image height={126} src={thumbnailFile.filename} width={224} />
+              <Image height={126} src={conv_small_image_filename(thumbnailFile.filename)} width={224} />
             </AspectRatio>
           </div>
         ) : null}
