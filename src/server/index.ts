@@ -28,7 +28,7 @@ async function init(): Promise<void> {
   // https://github.com/koajs/compress
   app.use(compress({
     filter (content_type: string) {
-      return /text/i.test(content_type)
+      return /text|javascript|json/i.test(content_type)
     },
     threshold: 2048,
     gzip: {
