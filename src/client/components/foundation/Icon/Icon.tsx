@@ -1,8 +1,17 @@
 import classNames from 'classnames';
 import type { FC } from 'react';
-import * as Icons from 'react-icons/fa';
+import { FaArrowLeft, FaArrowRight, FaShoppingCart, FaUser, FaPlay, FaCheckCircle } from 'react-icons/fa';
 
 import * as styles from './Icon.styles';
+
+const Icons = {
+  FaArrowLeft,
+  FaArrowRight,
+  FaShoppingCart,
+  FaUser,
+  FaPlay,
+  FaCheckCircle
+}
 
 type Props = {
   type: keyof typeof Icons;
