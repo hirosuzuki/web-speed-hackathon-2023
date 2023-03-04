@@ -28,7 +28,7 @@ export const Footer: FC = () => {
               ))}
             </ul>
             <NavLink to="/">
-              <Image src="/icons/logo-w205.gif" />
+              <Image src="/icons/logo-w205.gif" width={205} height={32}/>
             </NavLink>
           </footer>
         );
