@@ -9,3 +9,5 @@ for fn in files:
         subprocess.call(["convert", orig_fn, "-quality", "85", new_fn])
         new_fn = orig_fn[:-4] + "-s.jpg"
         subprocess.call(["convert", orig_fn, "-resize", "224", "-quality", "85", new_fn])
+        new_fn = orig_fn[:-4] + "-t.jpg"
+        subprocess.call(["convert", orig_fn, "-resize", "120", "-quality", "85", new_fn])
