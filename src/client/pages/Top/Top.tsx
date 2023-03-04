@@ -36,7 +36,7 @@ export const Top: FC = () => {
           <ProductHeroImage product={recommendation.product} title="今週のオススメ" />
 
           <div className={styles.featureList()}>
-            {features.map((featureSection) => {
+            {features.map((featureSection: any) => {
               return (
                 <div key={featureSection.id} className={styles.feature()}>
                   <h2 className={styles.featureHeading()}>{featureSection.title}</h2>
