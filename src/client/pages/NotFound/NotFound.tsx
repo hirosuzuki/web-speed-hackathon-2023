@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 
 import { Layout } from '../../components/application/Layout';
 import { loadFonts } from '../../utils/load_fonts';
+import { Image } from '../../components/foundation/Image';
 
 import * as styles from './NotFound.styles';
 
@@ -12,7 +13,6 @@ export const NotFound: FC = () => {
 
   useEffect(() => {
     const load = async () => {
-      await loadFonts();
       setIsReady(true);
     };
 
@@ -31,8 +31,7 @@ export const NotFound: FC = () => {
       <Layout>
         <div className={styles.container()}>
           <div className={styles.inner()}>
-            <p className={styles.mainParagraph()}>ページが存在しません</p>
-            <p className={styles.subParagraph()}>Not Found</p>
+            <p><Image height={69} src={"/icons/notfound.gif"} width={247} /></p>
           </div>
         </div>
       </Layout>
