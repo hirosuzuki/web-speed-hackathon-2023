@@ -55,11 +55,11 @@ export const SignInModal: FC = () => {
     },
     validate(values) {
       const errors: FormikErrors<SignInForm> = {};
-      if (values.email != '' && !emailSchema.safeParse(values.email).success) {
-        errors['email'] = 'メールアドレスの形式が間違っています';
+      if (values.email != '' && values.email.indexOf('@') < 0) {
+          errors['email'] = 'メールアドレスの形式が間違っています';
       }
-      if (values.password != '' && !passwordSchema.safeParse(values.password).success) {
-        errors['password'] = '英数字以外の文字を含めてください';
+      if (values.password != '' && /[^0-9a-zA-Z]/.test(values.password) === false) {
+          errors['password'] = '英数字以外の文字を含めてください';
       }
       return errors;
     },

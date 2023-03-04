@@ -58,10 +58,10 @@ export const SignUpModal: FC = () => {
     },
     validate(values) {
       const errors: FormikErrors<SignUpForm> = {};
-      if (values.email != '' && !emailSchema.safeParse(values.email).success) {
+      if (values.email != '' && values.email.indexOf('@') < 0) {
         errors['email'] = 'メールアドレスの形式が間違っています';
       }
-      if (values.password != '' && !passwordSchema.safeParse(values.password).success) {
+      if (values.password != '' && /[^0-9a-zA-Z]/.test(values.password) === false) {
         errors['password'] = '英数字以外の文字を含めてください';
       }
       return errors;
