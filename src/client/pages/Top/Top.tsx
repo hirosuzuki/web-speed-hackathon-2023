@@ -1,5 +1,6 @@
 import type { FC } from 'react';
 import { Helmet } from 'react-helmet';
+import useSWR from 'swr'
 
 import { Layout } from '../../components/application/Layout';
 import { ProductList } from '../../components/feature/ProductList';
@@ -11,9 +12,17 @@ import * as styles from './Top.styles';
 
 export const Top: FC = () => {
   const { recommendation } = useRecommendation();
-  const { features } = useFeatures();
+  // const { features } = useFeatures();
 
-  if (recommendation === undefined || features === undefined) {
+
+  async function fetcher(url: string): Promise<any | null> {
+    const response = await fetch(url);
+    return response.json();
+  }
+  
+  const { data: features, error, isLoading } = useSWR('/top.json', fetcher);
+    
+  if (recommendation === undefined || features === undefined || features === null) {
     return null;
   }
 
