@@ -48,8 +48,14 @@ async function init(): Promise<void> {
   app.use(session({}, app));
 
   app.use(async (ctx, next) => {
-    // ctx.set('Cache-Control', 'no-store');
-    ctx.set('Cache-Control', 'max-age=120');
+    if (/\.(jpg|gif|json|otf|html|txt|mp4|svg)$/i.test(ctx.path)) {
+      ctx.set('Cache-Control', 'max-age=3600');
+    } else {
+     ctx.set('Cache-Control', 'no-store');
+    }
+    if (ctx.path == '/') {
+      ctx.set('Link', '</images/products/carrot/001.jpg>; rel="preload"');
+    }
     await next();
   });
 
