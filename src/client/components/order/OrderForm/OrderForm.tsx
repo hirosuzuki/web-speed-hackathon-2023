@@ -35,7 +35,8 @@ export const OrderForm: FC<Props> = ({ onSubmit }) => {
 
     const zipCode = event.target.value;
     const address = [...(_.cloneDeep(zipcodeJa)[zipCode]?.address ?? [])];
-    const prefecture = address.unshift();
+    console.log("zip", address)
+    const prefecture = address.shift();
     const city = address.join(' ');
 
     formik.setFieldValue('prefecture', prefecture);
