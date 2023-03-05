@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useNavigate } from 'react-router-dom';
 
+import { Image } from '../../components/foundation/Image';
 import { Layout } from '../../components/application/Layout';
 import { AspectRatio } from '../../components/foundation/AspectRatio';
 import { DeviceType, GetDeviceType } from '../../components/foundation/GetDeviceType';
@@ -12,7 +13,6 @@ import { WidthRestriction } from '../../components/foundation/WidthRestriction';
 import { ProductHeroImage } from '../../components/product/ProductHeroImage';
 import { useAuthUser } from '../../hooks/useAuthUser';
 import { useRecommendation } from '../../hooks/useRecommendation';
-import { loadFonts } from '../../utils/load_fonts';
 
 import * as styles from './OrderComplete.styles';
 
@@ -23,9 +23,7 @@ export const OrderComplete: FC = () => {
   const { recommendation } = useRecommendation();
 
   useEffect(() => {
-    loadFonts().then(() => {
-      setIsReadyFont(true);
-    });
+    setIsReadyFont(true);
   }, []);
 
   if (!recommendation || !isReadyFont || authUserLoading) {
@@ -56,7 +54,7 @@ export const OrderComplete: FC = () => {
                           [styles.noticeDescription__mobile()]: deviceType === DeviceType.MOBILE,
                         })}
                       >
-                        このサイトは架空のサイトであり、商品が発送されることはありません
+                        <Image alt="このサイトは架空のサイトであり、商品が発送されることはありません" height={23} src={"/icons/complete.gif"} width={575} />
                       </p>
                     </div>
                   </AspectRatio>
