@@ -2,7 +2,6 @@ import type { FormikErrors } from 'formik';
 import { useFormik } from 'formik';
 import type { FC } from 'react';
 import { useState } from 'react';
-import * as z from 'zod';
 
 import { useSignIn } from '../../../hooks/useSignIn';
 import { useCloseModal, useIsOpenModal, useOpenModal } from '../../../store/modal';
@@ -12,13 +11,10 @@ import { TextInput } from '../../foundation/TextInput';
 
 import * as styles from './SignInModal.styles';
 
-const NOT_INCLUDED_AT_CHAR_REGEX = /^(?:[^@]*){6,}$/;
-const NOT_INCLUDED_SYMBOL_CHARS_REGEX = /^(?:(?:[a-zA-Z0-9]*){2,})+$/;
-
 // NOTE: 文字列に @ が含まれているか確認する
-const emailSchema = z.string().refine((v) => !NOT_INCLUDED_AT_CHAR_REGEX.test(v));
+const NOT_INCLUDED_AT_CHAR_REGEX = /^(?:[^@]*){6,}$/;
 // NOTE: 文字列に英数字以外の文字が含まれているか確認する
-const passwordSchema = z.string().refine((v) => !NOT_INCLUDED_SYMBOL_CHARS_REGEX.test(v));
+const NOT_INCLUDED_SYMBOL_CHARS_REGEX = /^(?:(?:[a-zA-Z0-9]*){2,})+$/;
 
 export type SignInForm = {
   email: string;
