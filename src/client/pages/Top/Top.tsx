@@ -1,5 +1,5 @@
 import type { FC } from 'react';
-import { Helmet } from 'react-helmet';
+import { useEffect } from 'react';
 import useSWR from 'swr'
 
 import { Layout } from '../../components/application/Layout';
@@ -19,15 +19,14 @@ export const Top: FC = () => {
   
   const { data: features } = useSWR('/top.json', fetcher);
     
+  useEffect(() => { document.title = `買えるオーガニック`; });
+
   if (recommendation === undefined || features === undefined || features === null) {
     return null;
   }
 
   return (
     <>
-      <Helmet>
-        <title>買えるオーガニック</title>
-      </Helmet>
       <Layout>
         <div>
           <ProductHeroImage product={recommendation.product} title="今週のオススメ" />

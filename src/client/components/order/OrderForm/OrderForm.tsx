@@ -18,8 +18,6 @@ type Props = {
   onSubmit: (orderFormValue: OrderFormValue) => void;
 };
 
-const zipcodeJa = await import('zipcode-ja') as any
-
 export const OrderForm: FC<Props> = ({ onSubmit }) => {
   const formik = useFormik<OrderFormValue>({
     initialValues: {
@@ -31,12 +29,20 @@ export const OrderForm: FC<Props> = ({ onSubmit }) => {
     onSubmit,
   });
 
+  const getAddress = async (zipCode: string) => {
+    if (zipCode.length != 7) {
+      return []
+    }
+    const zipcodeJa = await import('zipcode-ja') as any
+    const address = zipcodeJa[zipCode]?.address ?? [];
+    return address
+  }
+
   const handleZipcodeChange: ChangeEventHandler<HTMLInputElement> = async (event) => {
     formik.handleChange(event);
 
     const zipCode = event.target.value;
-    const address = (zipCode.length == 7) ? (zipcodeJa[zipCode]?.address ?? []) : [];
-    // console.log("zip", zipCode, zipcodeJa[zipCode], address)
+    const address = await getAddress(zipCode)
     const prefecture = address.shift();
     const city = address.join(' ');
 

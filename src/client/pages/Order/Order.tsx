@@ -1,5 +1,5 @@
 import type { FC } from 'react';
-import { Helmet } from 'react-helmet';
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import { Layout } from '../../components/application/Layout';
@@ -20,6 +20,8 @@ export const Order: FC = () => {
   const { updateCartItem } = useUpdateCartItem();
   const { submitOrder } = useSubmitOrder();
   const { order } = useOrder();
+
+  useEffect(() => { document.title = `購入手続き`; });
 
   if (authUserLoading) {
     return null;
@@ -84,9 +86,6 @@ export const Order: FC = () => {
 
   return (
     <>
-      <Helmet>
-        <title>購入手続き</title>
-      </Helmet>
       <Layout>
         <WidthRestriction>{renderContents()}</WidthRestriction>
       </Layout>
