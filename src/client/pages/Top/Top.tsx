@@ -17,7 +17,7 @@ export const Top: FC = () => {
     return response.json();
   }
   
-  const { data: features } = useSWR('/top.json', fetcher);
+  const { data: features } = useSWR('/features.json', fetcher);
     
   useEffect(() => { document.title = `買えるオーガニック`; });
 
