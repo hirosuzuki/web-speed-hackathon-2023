@@ -57,6 +57,8 @@ specifiers:
   npm-run-all: 4.1.5
   postcss: 8.4.21
   postcss-styled-syntax: 0.3.1
+  preact: 10.13.0
+  preact-compat: 3.19.0
   prettier: 2.8.0
   prettier-plugin-packagejson: 2.4.3
   prettier-plugin-sort-json: 1.0.0
@@ -114,6 +116,8 @@ dependencies:
   koa-session: 6.4.0
   koa-static: 5.0.0
   modern-css-reset: 1.4.0
+  preact: 10.13.0
+  preact-compat: 3.19.0_preact@10.13.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-error-boundary: 3.1.4_react@18.2.0
@@ -3813,6 +3817,12 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
+  /immutability-helper/2.9.1:
+    resolution: {integrity: sha512-r/RmRG8xO06s/k+PIaif2r5rGc3j4Yhc01jSBfwPCXDLYZwp/yxralI37Df1mwmuzcCsen/E/ITKcTEvc1PQmQ==}
+    dependencies:
+      invariant: 2.2.4
+    dev: false
+
   /import-fresh/3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
     engines: {node: '>=6'}
@@ -5089,6 +5099,49 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
+  /preact-compat/3.19.0_preact@10.13.0:
+    resolution: {integrity: sha512-f83A4hIhH8Uzhb9GbIcGk8SM19ffWlwP9mDaYwQdRnMdekZwcCA7eIAbeV4EMQaV9C0Yuy8iKgBAtyTKPZQt/Q==}
+    peerDependencies:
+      preact: <10
+    dependencies:
+      immutability-helper: 2.9.1
+      preact: 10.13.0
+      preact-context: 1.1.4_preact@10.13.0
+      preact-render-to-string: 3.8.2_preact@10.13.0
+      preact-transition-group: 1.1.1_preact@10.13.0
+      prop-types: 15.8.1
+      standalone-react-addons-pure-render-mixin: 0.1.1
+    dev: false
+
+  /preact-context/1.1.4_preact@10.13.0:
+    resolution: {integrity: sha512-gcCjPJ65R0MiW9hDu8W/3WAmyTElIvwLyEO6oLQiM6/TbLKLxCpBCWV8GJjx52TTEyUr60HLDcmoCXZlslelzQ==}
+    peerDependencies:
+      preact: ^8.2.7
+    dependencies:
+      preact: 10.13.0
+    dev: false
+
+  /preact-render-to-string/3.8.2_preact@10.13.0:
+    resolution: {integrity: sha512-przuZPajiurStGgxMoJP0EJeC4xj5CgHv+M7GfF3YxAdhGgEWAkhOSE0xympAFN20uMayntBZpttIZqqLl77fw==}
+    peerDependencies:
+      preact: '*'
+    dependencies:
+      preact: 10.13.0
+      pretty-format: 3.8.0
+    dev: false
+
+  /preact-transition-group/1.1.1_preact@10.13.0:
+    resolution: {integrity: sha512-v89XLodCvylf5lMrhI+LqIhDsAjWfiDKV4keAU+L5yDtxmqn8uvjZXn+haKMEG0x0PZz81own19SuNJD5NlOFQ==}
+    peerDependencies:
+      preact: '*'
+    dependencies:
+      preact: 10.13.0
+    dev: false
+
+  /preact/10.13.0:
+    resolution: {integrity: sha512-ERdIdUpR6doqdaSIh80hvzebHB7O6JxycOhyzAeLEchqOq/4yueslQbfnPwXaNhAYacFTyCclhwkEbOumT0tHw==}
+    dev: false
+
   /prelude-ls/1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
@@ -5122,6 +5175,10 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
+
+  /pretty-format/3.8.0:
+    resolution: {integrity: sha512-WuxUnVtlWL1OfZFQFuqvnvs6MiAGk9UNsBostyBOB0Is9wb5uRESevA6rnl/rkksXaGX3GzZhPup5d6Vp1nFew==}
+    dev: false
 
   /promise-inflight/1.0.1:
     resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
@@ -5785,6 +5842,10 @@ packages:
       minipass: 3.3.6
     dev: false
     optional: true
+
+  /standalone-react-addons-pure-render-mixin/0.1.1:
+    resolution: {integrity: sha512-HFkwqpJmvz4vxHyzdeUcjtsp8Am+NauLXdU2/YXT1/InPbszaRo1cLPAy/58H7oOPNNjteqHcv04JEw+d9C+Xw==}
+    dev: false
 
   /statuses/1.5.0:
     resolution: {integrity: sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==}
