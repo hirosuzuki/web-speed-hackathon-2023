@@ -46,5 +46,11 @@ export default defineConfig(async () => {
         videos,
       }),
     ],
+    resolve: {
+      alias: {
+        react: 'preact/compat',
+        'react-dom': 'preact/compat',
+      }
+    }
   };
 });
