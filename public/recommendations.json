@@ -1,0 +1,2240 @@
+[
+    {
+        "__typename": "Recommendation",
+        "id": 1,
+        "product": {
+            "__typename": "Product",
+            "id": 30,
+            "name": "安原農園のりんご",
+            "price": 1000,
+            "description": "今日では温室栽培の向上によって、くだもの、野菜など季節がなくなってしまった。早晩、俳諧歳時記など書き改めねばならなくなりそうだ。とはいっても、やはり旬のものに越したことはない。\nあえてきゅうりにはかぎらないが、旬がうまいということは、今も昔も変わらない。\nしかし、促成野菜を味なきもののようにいうのは、促成野菜の価値を認識しない批評であって、促成野菜は、いわゆる旬のものにない味わいを持っている。従って、軽々に取り扱うのは考えものである。\n昔は旬のきゅうりという一つのものであったが、今日では促成野菜というものができて、きゅうりもなすも二種類になっているわけである。その他にも一が二になっている促成野菜というものは多種多様に発明されている。\n従って促成と季節と楽しみは二つにふえているわけである。\nところできゅうりはまっすぐなのがよく、ひょうたん形のものはまずい。総じてよいきゅうりは形が平均している。真盛りになると、大きくなっても種がないうちはうまいが、種ができるように成長してしまっては落第である。一般に、温室など利用して作った小さなきゅうり、俗に初物と呼ぶような出たてのきゅうりで、料理屋などで使うのは、小さなのがよい。これは贅沢なシャレた食べ物の場合だが、いいきゅうりの漬けものを賞味しようと思ったら、やはりあとさきの揃ったものを選ぶべきだ。\n漬けものの漬かり加減は非常にむずかしく、気候とぬかみそ漬けの置き場で、漬かり方の速度に非常な差異ができるから、その点、注意深く心がける必要がある。不精して漬け過ぎると、きゅうりはすっぱくなるから、いい加減の時にぬかみそから取り出しておく。取り出しておいても味は急に変わらない。そのまま漬けておいたのでは酸っぱくなってしまう。ちょうどいいと思える時に取り出して、ぬかのついたまま包み、冷たいところに置いておく。そうすれば二、三時間｜経ってもうまく食べられる。そのわけは塩が中まで浸潤していかないので味が変わらないからである。\nそういったコツは、万人の苦労の集積から生み出されたものであろうが、そのコツを会得し、利用することはよいことである。しかし、なすの場合は出すと、間もなく色が変わるからそういうわけにはいかない。出し置きの利かないなすは、適当な時にぬかみそから出して食べることだ。",
+            "media": [
+                {
+                    "__typename": "ProductMedia",
+                    "id": 259,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 21,
+                        "filename": "/images/products/apple/001.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 260,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 22,
+                        "filename": "/images/products/apple/002.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 261,
+                    "isThumbnail": true,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 23,
+                        "filename": "/images/products/apple/003.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 262,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 24,
+                        "filename": "/images/products/apple/004.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 263,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 25,
+                        "filename": "/images/products/apple/005.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 264,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 26,
+                        "filename": "/images/products/apple/006.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 265,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 27,
+                        "filename": "/images/products/apple/007.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 266,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 73,
+                        "filename": "/videos/001.mp4"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 267,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 74,
+                        "filename": "/videos/002.mp4"
+                    }
+                }
+            ],
+            "offers": [
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 190,
+                    "price": 700,
+                    "startDate": "1970-01-09T21:00:00+00:00",
+                    "endDate": "1970-01-09T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 191,
+                    "price": 800,
+                    "startDate": "1970-01-10T21:00:00+00:00",
+                    "endDate": "1970-01-10T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 192,
+                    "price": 850,
+                    "startDate": "1970-01-11T21:00:00+00:00",
+                    "endDate": "1970-01-11T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 193,
+                    "price": 900,
+                    "startDate": "1970-01-12T21:00:00+00:00",
+                    "endDate": "1970-01-12T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 194,
+                    "price": 950,
+                    "startDate": "1970-01-13T21:00:00+00:00",
+                    "endDate": "1970-01-13T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 195,
+                    "price": 500,
+                    "startDate": "1970-01-14T21:00:00+00:00",
+                    "endDate": "1970-01-14T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 196,
+                    "price": 700,
+                    "startDate": "1970-01-15T21:00:00+00:00",
+                    "endDate": "1970-01-15T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 197,
+                    "price": 800,
+                    "startDate": "1970-01-16T21:00:00+00:00",
+                    "endDate": "1970-01-16T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 198,
+                    "price": 850,
+                    "startDate": "1970-01-17T21:00:00+00:00",
+                    "endDate": "1970-01-17T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 199,
+                    "price": 900,
+                    "startDate": "1970-01-18T21:00:00+00:00",
+                    "endDate": "1970-01-18T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 200,
+                    "price": 950,
+                    "startDate": "1970-01-19T21:00:00+00:00",
+                    "endDate": "1970-01-19T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 201,
+                    "price": 900,
+                    "startDate": "1970-01-20T21:00:00+00:00",
+                    "endDate": "1970-01-20T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 202,
+                    "price": 850,
+                    "startDate": "1970-01-21T21:00:00+00:00",
+                    "endDate": "1970-01-21T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 203,
+                    "price": 800,
+                    "startDate": "1970-01-22T21:00:00+00:00",
+                    "endDate": "1970-01-22T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 204,
+                    "price": 700,
+                    "startDate": "1970-01-23T21:00:00+00:00",
+                    "endDate": "1970-01-23T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 205,
+                    "price": 500,
+                    "startDate": "1970-01-24T21:00:00+00:00",
+                    "endDate": "1970-01-24T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 206,
+                    "price": 950,
+                    "startDate": "1970-01-25T21:00:00+00:00",
+                    "endDate": "1970-01-25T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 207,
+                    "price": 900,
+                    "startDate": "1970-01-26T21:00:00+00:00",
+                    "endDate": "1970-01-26T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 208,
+                    "price": 850,
+                    "startDate": "1970-01-27T21:00:00+00:00",
+                    "endDate": "1970-01-27T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 209,
+                    "price": 800,
+                    "startDate": "1970-01-28T21:00:00+00:00",
+                    "endDate": "1970-01-28T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 210,
+                    "price": 700,
+                    "startDate": "1970-01-29T21:00:00+00:00",
+                    "endDate": "1970-01-29T23:00:00+00:00"
+                }
+            ]
+        }
+    },
+    {
+        "__typename": "Recommendation",
+        "id": 2,
+        "product": {
+            "__typename": "Product",
+            "id": 60,
+            "name": "坂木農園のブルーベリー",
+            "price": 1000,
+            "description": "今日では温室栽培の向上によって、くだもの、野菜など季節がなくなってしまった。早晩、俳諧歳時記など書き改めねばならなくなりそうだ。とはいっても、やはり旬のものに越したことはない。\nあえてきゅうりにはかぎらないが、旬がうまいということは、今も昔も変わらない。\nしかし、促成野菜を味なきもののようにいうのは、促成野菜の価値を認識しない批評であって、促成野菜は、いわゆる旬のものにない味わいを持っている。従って、軽々に取り扱うのは考えものである。\n昔は旬のきゅうりという一つのものであったが、今日では促成野菜というものができて、きゅうりもなすも二種類になっているわけである。その他にも一が二になっている促成野菜というものは多種多様に発明されている。\n従って促成と季節と楽しみは二つにふえているわけである。\nところできゅうりはまっすぐなのがよく、ひょうたん形のものはまずい。総じてよいきゅうりは形が平均している。真盛りになると、大きくなっても種がないうちはうまいが、種ができるように成長してしまっては落第である。一般に、温室など利用して作った小さなきゅうり、俗に初物と呼ぶような出たてのきゅうりで、料理屋などで使うのは、小さなのがよい。これは贅沢なシャレた食べ物の場合だが、いいきゅうりの漬けものを賞味しようと思ったら、やはりあとさきの揃ったものを選ぶべきだ。\n漬けものの漬かり加減は非常にむずかしく、気候とぬかみそ漬けの置き場で、漬かり方の速度に非常な差異ができるから、その点、注意深く心がける必要がある。不精して漬け過ぎると、きゅうりはすっぱくなるから、いい加減の時にぬかみそから取り出しておく。取り出しておいても味は急に変わらない。そのまま漬けておいたのでは酸っぱくなってしまう。ちょうどいいと思える時に取り出して、ぬかのついたまま包み、冷たいところに置いておく。そうすれば二、三時間｜経ってもうまく食べられる。そのわけは塩が中まで浸潤していかないので味が変わらないからである。\nそういったコツは、万人の苦労の集積から生み出されたものであろうが、そのコツを会得し、利用することはよいことである。しかし、なすの場合は出すと、間もなく色が変わるからそういうわけにはいかない。出し置きの利かないなすは、適当な時にぬかみそから出して食べることだ。",
+            "media": [
+                {
+                    "__typename": "ProductMedia",
+                    "id": 529,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 36,
+                        "filename": "/images/products/blueberry/001.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 530,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 37,
+                        "filename": "/images/products/blueberry/002.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 531,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 38,
+                        "filename": "/images/products/blueberry/003.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 532,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 39,
+                        "filename": "/images/products/blueberry/004.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 533,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 40,
+                        "filename": "/images/products/blueberry/005.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 534,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 41,
+                        "filename": "/images/products/blueberry/006.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 535,
+                    "isThumbnail": true,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 42,
+                        "filename": "/images/products/blueberry/007.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 536,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 43,
+                        "filename": "/images/products/blueberry/008.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 537,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 44,
+                        "filename": "/images/products/blueberry/009.jpg"
+                    }
+                }
+            ],
+            "offers": [
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 400,
+                    "price": 700,
+                    "startDate": "1970-01-10T03:00:00+00:00",
+                    "endDate": "1970-01-10T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 401,
+                    "price": 800,
+                    "startDate": "1970-01-11T03:00:00+00:00",
+                    "endDate": "1970-01-11T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 402,
+                    "price": 850,
+                    "startDate": "1970-01-12T03:00:00+00:00",
+                    "endDate": "1970-01-12T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 403,
+                    "price": 900,
+                    "startDate": "1970-01-13T03:00:00+00:00",
+                    "endDate": "1970-01-13T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 404,
+                    "price": 950,
+                    "startDate": "1970-01-14T03:00:00+00:00",
+                    "endDate": "1970-01-14T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 405,
+                    "price": 500,
+                    "startDate": "1970-01-15T03:00:00+00:00",
+                    "endDate": "1970-01-15T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 406,
+                    "price": 700,
+                    "startDate": "1970-01-16T03:00:00+00:00",
+                    "endDate": "1970-01-16T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 407,
+                    "price": 800,
+                    "startDate": "1970-01-17T03:00:00+00:00",
+                    "endDate": "1970-01-17T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 408,
+                    "price": 850,
+                    "startDate": "1970-01-18T03:00:00+00:00",
+                    "endDate": "1970-01-18T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 409,
+                    "price": 900,
+                    "startDate": "1970-01-19T03:00:00+00:00",
+                    "endDate": "1970-01-19T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 410,
+                    "price": 950,
+                    "startDate": "1970-01-20T03:00:00+00:00",
+                    "endDate": "1970-01-20T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 411,
+                    "price": 900,
+                    "startDate": "1970-01-21T03:00:00+00:00",
+                    "endDate": "1970-01-21T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 412,
+                    "price": 850,
+                    "startDate": "1970-01-22T03:00:00+00:00",
+                    "endDate": "1970-01-22T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 413,
+                    "price": 800,
+                    "startDate": "1970-01-23T03:00:00+00:00",
+                    "endDate": "1970-01-23T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 414,
+                    "price": 700,
+                    "startDate": "1970-01-24T03:00:00+00:00",
+                    "endDate": "1970-01-24T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 415,
+                    "price": 500,
+                    "startDate": "1970-01-25T03:00:00+00:00",
+                    "endDate": "1970-01-25T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 416,
+                    "price": 950,
+                    "startDate": "1970-01-26T03:00:00+00:00",
+                    "endDate": "1970-01-26T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 417,
+                    "price": 900,
+                    "startDate": "1970-01-27T03:00:00+00:00",
+                    "endDate": "1970-01-27T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 418,
+                    "price": 850,
+                    "startDate": "1970-01-28T03:00:00+00:00",
+                    "endDate": "1970-01-28T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 419,
+                    "price": 800,
+                    "startDate": "1970-01-29T03:00:00+00:00",
+                    "endDate": "1970-01-29T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 420,
+                    "price": 700,
+                    "startDate": "1970-01-30T03:00:00+00:00",
+                    "endDate": "1970-01-30T05:00:00+00:00"
+                }
+            ]
+        }
+    },
+    {
+        "__typename": "Recommendation",
+        "id": 3,
+        "product": {
+            "__typename": "Product",
+            "id": 90,
+            "name": "東堂農園のいちご",
+            "price": 1000,
+            "description": "今日では温室栽培の向上によって、くだもの、野菜など季節がなくなってしまった。早晩、俳諧歳時記など書き改めねばならなくなりそうだ。とはいっても、やはり旬のものに越したことはない。\nあえてきゅうりにはかぎらないが、旬がうまいということは、今も昔も変わらない。\nしかし、促成野菜を味なきもののようにいうのは、促成野菜の価値を認識しない批評であって、促成野菜は、いわゆる旬のものにない味わいを持っている。従って、軽々に取り扱うのは考えものである。\n昔は旬のきゅうりという一つのものであったが、今日では促成野菜というものができて、きゅうりもなすも二種類になっているわけである。その他にも一が二になっている促成野菜というものは多種多様に発明されている。\n従って促成と季節と楽しみは二つにふえているわけである。\nところできゅうりはまっすぐなのがよく、ひょうたん形のものはまずい。総じてよいきゅうりは形が平均している。真盛りになると、大きくなっても種がないうちはうまいが、種ができるように成長してしまっては落第である。一般に、温室など利用して作った小さなきゅうり、俗に初物と呼ぶような出たてのきゅうりで、料理屋などで使うのは、小さなのがよい。これは贅沢なシャレた食べ物の場合だが、いいきゅうりの漬けものを賞味しようと思ったら、やはりあとさきの揃ったものを選ぶべきだ。\n漬けものの漬かり加減は非常にむずかしく、気候とぬかみそ漬けの置き場で、漬かり方の速度に非常な差異ができるから、その点、注意深く心がける必要がある。不精して漬け過ぎると、きゅうりはすっぱくなるから、いい加減の時にぬかみそから取り出しておく。取り出しておいても味は急に変わらない。そのまま漬けておいたのでは酸っぱくなってしまう。ちょうどいいと思える時に取り出して、ぬかのついたまま包み、冷たいところに置いておく。そうすれば二、三時間｜経ってもうまく食べられる。そのわけは塩が中まで浸潤していかないので味が変わらないからである。\nそういったコツは、万人の苦労の集積から生み出されたものであろうが、そのコツを会得し、利用することはよいことである。しかし、なすの場合は出すと、間もなく色が変わるからそういうわけにはいかない。出し置きの利かないなすは、適当な時にぬかみそから出して食べることだ。",
+            "media": [
+                {
+                    "__typename": "ProductMedia",
+                    "id": 795,
+                    "isThumbnail": true,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 58,
+                        "filename": "/images/products/strawberry/001.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 796,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 59,
+                        "filename": "/images/products/strawberry/002.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 797,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 60,
+                        "filename": "/images/products/strawberry/003.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 798,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 61,
+                        "filename": "/images/products/strawberry/004.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 799,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 62,
+                        "filename": "/images/products/strawberry/005.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 800,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 73,
+                        "filename": "/videos/001.mp4"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 801,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 74,
+                        "filename": "/videos/002.mp4"
+                    }
+                }
+            ],
+            "offers": [
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 610,
+                    "price": 700,
+                    "startDate": "1970-01-10T09:00:00+00:00",
+                    "endDate": "1970-01-10T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 611,
+                    "price": 800,
+                    "startDate": "1970-01-11T09:00:00+00:00",
+                    "endDate": "1970-01-11T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 612,
+                    "price": 850,
+                    "startDate": "1970-01-12T09:00:00+00:00",
+                    "endDate": "1970-01-12T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 613,
+                    "price": 900,
+                    "startDate": "1970-01-13T09:00:00+00:00",
+                    "endDate": "1970-01-13T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 614,
+                    "price": 950,
+                    "startDate": "1970-01-14T09:00:00+00:00",
+                    "endDate": "1970-01-14T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 615,
+                    "price": 500,
+                    "startDate": "1970-01-15T09:00:00+00:00",
+                    "endDate": "1970-01-15T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 616,
+                    "price": 700,
+                    "startDate": "1970-01-16T09:00:00+00:00",
+                    "endDate": "1970-01-16T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 617,
+                    "price": 800,
+                    "startDate": "1970-01-17T09:00:00+00:00",
+                    "endDate": "1970-01-17T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 618,
+                    "price": 850,
+                    "startDate": "1970-01-18T09:00:00+00:00",
+                    "endDate": "1970-01-18T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 619,
+                    "price": 900,
+                    "startDate": "1970-01-19T09:00:00+00:00",
+                    "endDate": "1970-01-19T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 620,
+                    "price": 950,
+                    "startDate": "1970-01-20T09:00:00+00:00",
+                    "endDate": "1970-01-20T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 621,
+                    "price": 900,
+                    "startDate": "1970-01-21T09:00:00+00:00",
+                    "endDate": "1970-01-21T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 622,
+                    "price": 850,
+                    "startDate": "1970-01-22T09:00:00+00:00",
+                    "endDate": "1970-01-22T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 623,
+                    "price": 800,
+                    "startDate": "1970-01-23T09:00:00+00:00",
+                    "endDate": "1970-01-23T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 624,
+                    "price": 700,
+                    "startDate": "1970-01-24T09:00:00+00:00",
+                    "endDate": "1970-01-24T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 625,
+                    "price": 500,
+                    "startDate": "1970-01-25T09:00:00+00:00",
+                    "endDate": "1970-01-25T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 626,
+                    "price": 950,
+                    "startDate": "1970-01-26T09:00:00+00:00",
+                    "endDate": "1970-01-26T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 627,
+                    "price": 900,
+                    "startDate": "1970-01-27T09:00:00+00:00",
+                    "endDate": "1970-01-27T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 628,
+                    "price": 850,
+                    "startDate": "1970-01-28T09:00:00+00:00",
+                    "endDate": "1970-01-28T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 629,
+                    "price": 800,
+                    "startDate": "1970-01-29T09:00:00+00:00",
+                    "endDate": "1970-01-29T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 630,
+                    "price": 700,
+                    "startDate": "1970-01-30T09:00:00+00:00",
+                    "endDate": "1970-01-30T11:00:00+00:00"
+                }
+            ]
+        }
+    },
+    {
+        "__typename": "Recommendation",
+        "id": 4,
+        "product": {
+            "__typename": "Product",
+            "id": 120,
+            "name": "今井ファームのキャベツ",
+            "price": 1000,
+            "description": "今日では温室栽培の向上によって、くだもの、野菜など季節がなくなってしまった。早晩、俳諧歳時記など書き改めねばならなくなりそうだ。とはいっても、やはり旬のものに越したことはない。\nあえてきゅうりにはかぎらないが、旬がうまいということは、今も昔も変わらない。\nしかし、促成野菜を味なきもののようにいうのは、促成野菜の価値を認識しない批評であって、促成野菜は、いわゆる旬のものにない味わいを持っている。従って、軽々に取り扱うのは考えものである。\n昔は旬のきゅうりという一つのものであったが、今日では促成野菜というものができて、きゅうりもなすも二種類になっているわけである。その他にも一が二になっている促成野菜というものは多種多様に発明されている。\n従って促成と季節と楽しみは二つにふえているわけである。\nところできゅうりはまっすぐなのがよく、ひょうたん形のものはまずい。総じてよいきゅうりは形が平均している。真盛りになると、大きくなっても種がないうちはうまいが、種ができるように成長してしまっては落第である。一般に、温室など利用して作った小さなきゅうり、俗に初物と呼ぶような出たてのきゅうりで、料理屋などで使うのは、小さなのがよい。これは贅沢なシャレた食べ物の場合だが、いいきゅうりの漬けものを賞味しようと思ったら、やはりあとさきの揃ったものを選ぶべきだ。\n漬けものの漬かり加減は非常にむずかしく、気候とぬかみそ漬けの置き場で、漬かり方の速度に非常な差異ができるから、その点、注意深く心がける必要がある。不精して漬け過ぎると、きゅうりはすっぱくなるから、いい加減の時にぬかみそから取り出しておく。取り出しておいても味は急に変わらない。そのまま漬けておいたのでは酸っぱくなってしまう。ちょうどいいと思える時に取り出して、ぬかのついたまま包み、冷たいところに置いておく。そうすれば二、三時間｜経ってもうまく食べられる。そのわけは塩が中まで浸潤していかないので味が変わらないからである。\nそういったコツは、万人の苦労の集積から生み出されたものであろうが、そのコツを会得し、利用することはよいことである。しかし、なすの場合は出すと、間もなく色が変わるからそういうわけにはいかない。出し置きの利かないなすは、適当な時にぬかみそから出して食べることだ。",
+            "media": [
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1065,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 45,
+                        "filename": "/images/products/cabbage/001.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1066,
+                    "isThumbnail": true,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 46,
+                        "filename": "/images/products/cabbage/002.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1067,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 47,
+                        "filename": "/images/products/cabbage/003.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1068,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 48,
+                        "filename": "/images/products/cabbage/004.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1069,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 49,
+                        "filename": "/images/products/cabbage/005.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1070,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 50,
+                        "filename": "/images/products/cabbage/006.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1071,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 51,
+                        "filename": "/images/products/cabbage/007.jpg"
+                    }
+                }
+            ],
+            "offers": [
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 820,
+                    "price": 700,
+                    "startDate": "1970-01-09T15:00:00+00:00",
+                    "endDate": "1970-01-09T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 821,
+                    "price": 800,
+                    "startDate": "1970-01-10T15:00:00+00:00",
+                    "endDate": "1970-01-10T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 822,
+                    "price": 850,
+                    "startDate": "1970-01-11T15:00:00+00:00",
+                    "endDate": "1970-01-11T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 823,
+                    "price": 900,
+                    "startDate": "1970-01-12T15:00:00+00:00",
+                    "endDate": "1970-01-12T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 824,
+                    "price": 950,
+                    "startDate": "1970-01-13T15:00:00+00:00",
+                    "endDate": "1970-01-13T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 825,
+                    "price": 500,
+                    "startDate": "1970-01-14T15:00:00+00:00",
+                    "endDate": "1970-01-14T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 826,
+                    "price": 700,
+                    "startDate": "1970-01-15T15:00:00+00:00",
+                    "endDate": "1970-01-15T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 827,
+                    "price": 800,
+                    "startDate": "1970-01-16T15:00:00+00:00",
+                    "endDate": "1970-01-16T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 828,
+                    "price": 850,
+                    "startDate": "1970-01-17T15:00:00+00:00",
+                    "endDate": "1970-01-17T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 829,
+                    "price": 900,
+                    "startDate": "1970-01-18T15:00:00+00:00",
+                    "endDate": "1970-01-18T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 830,
+                    "price": 950,
+                    "startDate": "1970-01-19T15:00:00+00:00",
+                    "endDate": "1970-01-19T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 831,
+                    "price": 900,
+                    "startDate": "1970-01-20T15:00:00+00:00",
+                    "endDate": "1970-01-20T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 832,
+                    "price": 850,
+                    "startDate": "1970-01-21T15:00:00+00:00",
+                    "endDate": "1970-01-21T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 833,
+                    "price": 800,
+                    "startDate": "1970-01-22T15:00:00+00:00",
+                    "endDate": "1970-01-22T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 834,
+                    "price": 700,
+                    "startDate": "1970-01-23T15:00:00+00:00",
+                    "endDate": "1970-01-23T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 835,
+                    "price": 500,
+                    "startDate": "1970-01-24T15:00:00+00:00",
+                    "endDate": "1970-01-24T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 836,
+                    "price": 950,
+                    "startDate": "1970-01-25T15:00:00+00:00",
+                    "endDate": "1970-01-25T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 837,
+                    "price": 900,
+                    "startDate": "1970-01-26T15:00:00+00:00",
+                    "endDate": "1970-01-26T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 838,
+                    "price": 850,
+                    "startDate": "1970-01-27T15:00:00+00:00",
+                    "endDate": "1970-01-27T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 839,
+                    "price": 800,
+                    "startDate": "1970-01-28T15:00:00+00:00",
+                    "endDate": "1970-01-28T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 840,
+                    "price": 700,
+                    "startDate": "1970-01-29T15:00:00+00:00",
+                    "endDate": "1970-01-29T17:00:00+00:00"
+                }
+            ]
+        }
+    },
+    {
+        "__typename": "Recommendation",
+        "id": 5,
+        "product": {
+            "__typename": "Product",
+            "id": 150,
+            "name": "本田ファームのバナナ",
+            "price": 1000,
+            "description": "今日では温室栽培の向上によって、くだもの、野菜など季節がなくなってしまった。早晩、俳諧歳時記など書き改めねばならなくなりそうだ。とはいっても、やはり旬のものに越したことはない。\nあえてきゅうりにはかぎらないが、旬がうまいということは、今も昔も変わらない。\nしかし、促成野菜を味なきもののようにいうのは、促成野菜の価値を認識しない批評であって、促成野菜は、いわゆる旬のものにない味わいを持っている。従って、軽々に取り扱うのは考えものである。\n昔は旬のきゅうりという一つのものであったが、今日では促成野菜というものができて、きゅうりもなすも二種類になっているわけである。その他にも一が二になっている促成野菜というものは多種多様に発明されている。\n従って促成と季節と楽しみは二つにふえているわけである。\nところできゅうりはまっすぐなのがよく、ひょうたん形のものはまずい。総じてよいきゅうりは形が平均している。真盛りになると、大きくなっても種がないうちはうまいが、種ができるように成長してしまっては落第である。一般に、温室など利用して作った小さなきゅうり、俗に初物と呼ぶような出たてのきゅうりで、料理屋などで使うのは、小さなのがよい。これは贅沢なシャレた食べ物の場合だが、いいきゅうりの漬けものを賞味しようと思ったら、やはりあとさきの揃ったものを選ぶべきだ。\n漬けものの漬かり加減は非常にむずかしく、気候とぬかみそ漬けの置き場で、漬かり方の速度に非常な差異ができるから、その点、注意深く心がける必要がある。不精して漬け過ぎると、きゅうりはすっぱくなるから、いい加減の時にぬかみそから取り出しておく。取り出しておいても味は急に変わらない。そのまま漬けておいたのでは酸っぱくなってしまう。ちょうどいいと思える時に取り出して、ぬかのついたまま包み、冷たいところに置いておく。そうすれば二、三時間｜経ってもうまく食べられる。そのわけは塩が中まで浸潤していかないので味が変わらないからである。\nそういったコツは、万人の苦労の集積から生み出されたものであろうが、そのコツを会得し、利用することはよいことである。しかし、なすの場合は出すと、間もなく色が変わるからそういうわけにはいかない。出し置きの利かないなすは、適当な時にぬかみそから出して食べることだ。",
+            "media": [
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1330,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 28,
+                        "filename": "/images/products/banana/001.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1331,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 29,
+                        "filename": "/images/products/banana/002.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1332,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 30,
+                        "filename": "/images/products/banana/003.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1333,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 31,
+                        "filename": "/images/products/banana/004.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1334,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 32,
+                        "filename": "/images/products/banana/005.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1335,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 33,
+                        "filename": "/images/products/banana/006.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1336,
+                    "isThumbnail": true,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 34,
+                        "filename": "/images/products/banana/007.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1337,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 35,
+                        "filename": "/images/products/banana/008.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1338,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 73,
+                        "filename": "/videos/001.mp4"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1339,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 74,
+                        "filename": "/videos/002.mp4"
+                    }
+                }
+            ],
+            "offers": [
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1030,
+                    "price": 700,
+                    "startDate": "1970-01-09T21:00:00+00:00",
+                    "endDate": "1970-01-09T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1031,
+                    "price": 800,
+                    "startDate": "1970-01-10T21:00:00+00:00",
+                    "endDate": "1970-01-10T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1032,
+                    "price": 850,
+                    "startDate": "1970-01-11T21:00:00+00:00",
+                    "endDate": "1970-01-11T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1033,
+                    "price": 900,
+                    "startDate": "1970-01-12T21:00:00+00:00",
+                    "endDate": "1970-01-12T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1034,
+                    "price": 950,
+                    "startDate": "1970-01-13T21:00:00+00:00",
+                    "endDate": "1970-01-13T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1035,
+                    "price": 500,
+                    "startDate": "1970-01-14T21:00:00+00:00",
+                    "endDate": "1970-01-14T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1036,
+                    "price": 700,
+                    "startDate": "1970-01-15T21:00:00+00:00",
+                    "endDate": "1970-01-15T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1037,
+                    "price": 800,
+                    "startDate": "1970-01-16T21:00:00+00:00",
+                    "endDate": "1970-01-16T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1038,
+                    "price": 850,
+                    "startDate": "1970-01-17T21:00:00+00:00",
+                    "endDate": "1970-01-17T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1039,
+                    "price": 900,
+                    "startDate": "1970-01-18T21:00:00+00:00",
+                    "endDate": "1970-01-18T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1040,
+                    "price": 950,
+                    "startDate": "1970-01-19T21:00:00+00:00",
+                    "endDate": "1970-01-19T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1041,
+                    "price": 900,
+                    "startDate": "1970-01-20T21:00:00+00:00",
+                    "endDate": "1970-01-20T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1042,
+                    "price": 850,
+                    "startDate": "1970-01-21T21:00:00+00:00",
+                    "endDate": "1970-01-21T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1043,
+                    "price": 800,
+                    "startDate": "1970-01-22T21:00:00+00:00",
+                    "endDate": "1970-01-22T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1044,
+                    "price": 700,
+                    "startDate": "1970-01-23T21:00:00+00:00",
+                    "endDate": "1970-01-23T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1045,
+                    "price": 500,
+                    "startDate": "1970-01-24T21:00:00+00:00",
+                    "endDate": "1970-01-24T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1046,
+                    "price": 950,
+                    "startDate": "1970-01-25T21:00:00+00:00",
+                    "endDate": "1970-01-25T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1047,
+                    "price": 900,
+                    "startDate": "1970-01-26T21:00:00+00:00",
+                    "endDate": "1970-01-26T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1048,
+                    "price": 850,
+                    "startDate": "1970-01-27T21:00:00+00:00",
+                    "endDate": "1970-01-27T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1049,
+                    "price": 800,
+                    "startDate": "1970-01-28T21:00:00+00:00",
+                    "endDate": "1970-01-28T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1050,
+                    "price": 700,
+                    "startDate": "1970-01-29T21:00:00+00:00",
+                    "endDate": "1970-01-29T23:00:00+00:00"
+                }
+            ]
+        }
+    },
+    {
+        "__typename": "Recommendation",
+        "id": 6,
+        "product": {
+            "__typename": "Product",
+            "id": 180,
+            "name": "高梨ファームの人参",
+            "price": 1000,
+            "description": "今日では温室栽培の向上によって、くだもの、野菜など季節がなくなってしまった。早晩、俳諧歳時記など書き改めねばならなくなりそうだ。とはいっても、やはり旬のものに越したことはない。\nあえてきゅうりにはかぎらないが、旬がうまいということは、今も昔も変わらない。\nしかし、促成野菜を味なきもののようにいうのは、促成野菜の価値を認識しない批評であって、促成野菜は、いわゆる旬のものにない味わいを持っている。従って、軽々に取り扱うのは考えものである。\n昔は旬のきゅうりという一つのものであったが、今日では促成野菜というものができて、きゅうりもなすも二種類になっているわけである。その他にも一が二になっている促成野菜というものは多種多様に発明されている。\n従って促成と季節と楽しみは二つにふえているわけである。\nところできゅうりはまっすぐなのがよく、ひょうたん形のものはまずい。総じてよいきゅうりは形が平均している。真盛りになると、大きくなっても種がないうちはうまいが、種ができるように成長してしまっては落第である。一般に、温室など利用して作った小さなきゅうり、俗に初物と呼ぶような出たてのきゅうりで、料理屋などで使うのは、小さなのがよい。これは贅沢なシャレた食べ物の場合だが、いいきゅうりの漬けものを賞味しようと思ったら、やはりあとさきの揃ったものを選ぶべきだ。\n漬けものの漬かり加減は非常にむずかしく、気候とぬかみそ漬けの置き場で、漬かり方の速度に非常な差異ができるから、その点、注意深く心がける必要がある。不精して漬け過ぎると、きゅうりはすっぱくなるから、いい加減の時にぬかみそから取り出しておく。取り出しておいても味は急に変わらない。そのまま漬けておいたのでは酸っぱくなってしまう。ちょうどいいと思える時に取り出して、ぬかのついたまま包み、冷たいところに置いておく。そうすれば二、三時間｜経ってもうまく食べられる。そのわけは塩が中まで浸潤していかないので味が変わらないからである。\nそういったコツは、万人の苦労の集積から生み出されたものであろうが、そのコツを会得し、利用することはよいことである。しかし、なすの場合は出すと、間もなく色が変わるからそういうわけにはいかない。出し置きの利かないなすは、適当な時にぬかみそから出して食べることだ。",
+            "media": [
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1602,
+                    "isThumbnail": true,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 52,
+                        "filename": "/images/products/carrot/001.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1603,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 53,
+                        "filename": "/images/products/carrot/002.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1604,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 54,
+                        "filename": "/images/products/carrot/003.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1605,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 55,
+                        "filename": "/images/products/carrot/004.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1606,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 56,
+                        "filename": "/images/products/carrot/005.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1607,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 57,
+                        "filename": "/images/products/carrot/006.jpg"
+                    }
+                }
+            ],
+            "offers": [
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1240,
+                    "price": 700,
+                    "startDate": "1970-01-10T03:00:00+00:00",
+                    "endDate": "1970-01-10T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1241,
+                    "price": 800,
+                    "startDate": "1970-01-11T03:00:00+00:00",
+                    "endDate": "1970-01-11T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1242,
+                    "price": 850,
+                    "startDate": "1970-01-12T03:00:00+00:00",
+                    "endDate": "1970-01-12T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1243,
+                    "price": 900,
+                    "startDate": "1970-01-13T03:00:00+00:00",
+                    "endDate": "1970-01-13T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1244,
+                    "price": 950,
+                    "startDate": "1970-01-14T03:00:00+00:00",
+                    "endDate": "1970-01-14T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1245,
+                    "price": 500,
+                    "startDate": "1970-01-15T03:00:00+00:00",
+                    "endDate": "1970-01-15T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1246,
+                    "price": 700,
+                    "startDate": "1970-01-16T03:00:00+00:00",
+                    "endDate": "1970-01-16T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1247,
+                    "price": 800,
+                    "startDate": "1970-01-17T03:00:00+00:00",
+                    "endDate": "1970-01-17T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1248,
+                    "price": 850,
+                    "startDate": "1970-01-18T03:00:00+00:00",
+                    "endDate": "1970-01-18T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1249,
+                    "price": 900,
+                    "startDate": "1970-01-19T03:00:00+00:00",
+                    "endDate": "1970-01-19T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1250,
+                    "price": 950,
+                    "startDate": "1970-01-20T03:00:00+00:00",
+                    "endDate": "1970-01-20T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1251,
+                    "price": 900,
+                    "startDate": "1970-01-21T03:00:00+00:00",
+                    "endDate": "1970-01-21T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1252,
+                    "price": 850,
+                    "startDate": "1970-01-22T03:00:00+00:00",
+                    "endDate": "1970-01-22T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1253,
+                    "price": 800,
+                    "startDate": "1970-01-23T03:00:00+00:00",
+                    "endDate": "1970-01-23T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1254,
+                    "price": 700,
+                    "startDate": "1970-01-24T03:00:00+00:00",
+                    "endDate": "1970-01-24T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1255,
+                    "price": 500,
+                    "startDate": "1970-01-25T03:00:00+00:00",
+                    "endDate": "1970-01-25T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1256,
+                    "price": 950,
+                    "startDate": "1970-01-26T03:00:00+00:00",
+                    "endDate": "1970-01-26T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1257,
+                    "price": 900,
+                    "startDate": "1970-01-27T03:00:00+00:00",
+                    "endDate": "1970-01-27T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1258,
+                    "price": 850,
+                    "startDate": "1970-01-28T03:00:00+00:00",
+                    "endDate": "1970-01-28T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1259,
+                    "price": 800,
+                    "startDate": "1970-01-29T03:00:00+00:00",
+                    "endDate": "1970-01-29T05:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1260,
+                    "price": 700,
+                    "startDate": "1970-01-30T03:00:00+00:00",
+                    "endDate": "1970-01-30T05:00:00+00:00"
+                }
+            ]
+        }
+    },
+    {
+        "__typename": "Recommendation",
+        "id": 7,
+        "product": {
+            "__typename": "Product",
+            "id": 210,
+            "name": "矢野ファームのトマト",
+            "price": 1000,
+            "description": "今日では温室栽培の向上によって、くだもの、野菜など季節がなくなってしまった。早晩、俳諧歳時記など書き改めねばならなくなりそうだ。とはいっても、やはり旬のものに越したことはない。\nあえてきゅうりにはかぎらないが、旬がうまいということは、今も昔も変わらない。\nしかし、促成野菜を味なきもののようにいうのは、促成野菜の価値を認識しない批評であって、促成野菜は、いわゆる旬のものにない味わいを持っている。従って、軽々に取り扱うのは考えものである。\n昔は旬のきゅうりという一つのものであったが、今日では促成野菜というものができて、きゅうりもなすも二種類になっているわけである。その他にも一が二になっている促成野菜というものは多種多様に発明されている。\n従って促成と季節と楽しみは二つにふえているわけである。\nところできゅうりはまっすぐなのがよく、ひょうたん形のものはまずい。総じてよいきゅうりは形が平均している。真盛りになると、大きくなっても種がないうちはうまいが、種ができるように成長してしまっては落第である。一般に、温室など利用して作った小さなきゅうり、俗に初物と呼ぶような出たてのきゅうりで、料理屋などで使うのは、小さなのがよい。これは贅沢なシャレた食べ物の場合だが、いいきゅうりの漬けものを賞味しようと思ったら、やはりあとさきの揃ったものを選ぶべきだ。\n漬けものの漬かり加減は非常にむずかしく、気候とぬかみそ漬けの置き場で、漬かり方の速度に非常な差異ができるから、その点、注意深く心がける必要がある。不精して漬け過ぎると、きゅうりはすっぱくなるから、いい加減の時にぬかみそから取り出しておく。取り出しておいても味は急に変わらない。そのまま漬けておいたのでは酸っぱくなってしまう。ちょうどいいと思える時に取り出して、ぬかのついたまま包み、冷たいところに置いておく。そうすれば二、三時間｜経ってもうまく食べられる。そのわけは塩が中まで浸潤していかないので味が変わらないからである。\nそういったコツは、万人の苦労の集積から生み出されたものであろうが、そのコツを会得し、利用することはよいことである。しかし、なすの場合は出すと、間もなく色が変わるからそういうわけにはいかない。出し置きの利かないなすは、適当な時にぬかみそから出して食べることだ。",
+            "media": [
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1864,
+                    "isThumbnail": true,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 63,
+                        "filename": "/images/products/tomato/001.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1865,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 64,
+                        "filename": "/images/products/tomato/002.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1866,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 65,
+                        "filename": "/images/products/tomato/003.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1867,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 66,
+                        "filename": "/images/products/tomato/004.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1868,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 67,
+                        "filename": "/images/products/tomato/005.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1869,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 68,
+                        "filename": "/images/products/tomato/006.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1870,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 69,
+                        "filename": "/images/products/tomato/007.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1871,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 70,
+                        "filename": "/images/products/tomato/008.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1872,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 71,
+                        "filename": "/images/products/tomato/009.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1873,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 72,
+                        "filename": "/images/products/tomato/010.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1874,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 73,
+                        "filename": "/videos/001.mp4"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 1875,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 74,
+                        "filename": "/videos/002.mp4"
+                    }
+                }
+            ],
+            "offers": [
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1450,
+                    "price": 700,
+                    "startDate": "1970-01-10T09:00:00+00:00",
+                    "endDate": "1970-01-10T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1451,
+                    "price": 800,
+                    "startDate": "1970-01-11T09:00:00+00:00",
+                    "endDate": "1970-01-11T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1452,
+                    "price": 850,
+                    "startDate": "1970-01-12T09:00:00+00:00",
+                    "endDate": "1970-01-12T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1453,
+                    "price": 900,
+                    "startDate": "1970-01-13T09:00:00+00:00",
+                    "endDate": "1970-01-13T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1454,
+                    "price": 950,
+                    "startDate": "1970-01-14T09:00:00+00:00",
+                    "endDate": "1970-01-14T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1455,
+                    "price": 500,
+                    "startDate": "1970-01-15T09:00:00+00:00",
+                    "endDate": "1970-01-15T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1456,
+                    "price": 700,
+                    "startDate": "1970-01-16T09:00:00+00:00",
+                    "endDate": "1970-01-16T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1457,
+                    "price": 800,
+                    "startDate": "1970-01-17T09:00:00+00:00",
+                    "endDate": "1970-01-17T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1458,
+                    "price": 850,
+                    "startDate": "1970-01-18T09:00:00+00:00",
+                    "endDate": "1970-01-18T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1459,
+                    "price": 900,
+                    "startDate": "1970-01-19T09:00:00+00:00",
+                    "endDate": "1970-01-19T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1460,
+                    "price": 950,
+                    "startDate": "1970-01-20T09:00:00+00:00",
+                    "endDate": "1970-01-20T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1461,
+                    "price": 900,
+                    "startDate": "1970-01-21T09:00:00+00:00",
+                    "endDate": "1970-01-21T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1462,
+                    "price": 850,
+                    "startDate": "1970-01-22T09:00:00+00:00",
+                    "endDate": "1970-01-22T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1463,
+                    "price": 800,
+                    "startDate": "1970-01-23T09:00:00+00:00",
+                    "endDate": "1970-01-23T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1464,
+                    "price": 700,
+                    "startDate": "1970-01-24T09:00:00+00:00",
+                    "endDate": "1970-01-24T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1465,
+                    "price": 500,
+                    "startDate": "1970-01-25T09:00:00+00:00",
+                    "endDate": "1970-01-25T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1466,
+                    "price": 950,
+                    "startDate": "1970-01-26T09:00:00+00:00",
+                    "endDate": "1970-01-26T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1467,
+                    "price": 900,
+                    "startDate": "1970-01-27T09:00:00+00:00",
+                    "endDate": "1970-01-27T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1468,
+                    "price": 850,
+                    "startDate": "1970-01-28T09:00:00+00:00",
+                    "endDate": "1970-01-28T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1469,
+                    "price": 800,
+                    "startDate": "1970-01-29T09:00:00+00:00",
+                    "endDate": "1970-01-29T11:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1470,
+                    "price": 700,
+                    "startDate": "1970-01-30T09:00:00+00:00",
+                    "endDate": "1970-01-30T11:00:00+00:00"
+                }
+            ]
+        }
+    },
+    {
+        "__typename": "Recommendation",
+        "id": 8,
+        "product": {
+            "__typename": "Product",
+            "id": 240,
+            "name": "落合ナチュラルファームのりんご",
+            "price": 1000,
+            "description": "今日では温室栽培の向上によって、くだもの、野菜など季節がなくなってしまった。早晩、俳諧歳時記など書き改めねばならなくなりそうだ。とはいっても、やはり旬のものに越したことはない。\nあえてきゅうりにはかぎらないが、旬がうまいということは、今も昔も変わらない。\nしかし、促成野菜を味なきもののようにいうのは、促成野菜の価値を認識しない批評であって、促成野菜は、いわゆる旬のものにない味わいを持っている。従って、軽々に取り扱うのは考えものである。\n昔は旬のきゅうりという一つのものであったが、今日では促成野菜というものができて、きゅうりもなすも二種類になっているわけである。その他にも一が二になっている促成野菜というものは多種多様に発明されている。\n従って促成と季節と楽しみは二つにふえているわけである。\nところできゅうりはまっすぐなのがよく、ひょうたん形のものはまずい。総じてよいきゅうりは形が平均している。真盛りになると、大きくなっても種がないうちはうまいが、種ができるように成長してしまっては落第である。一般に、温室など利用して作った小さなきゅうり、俗に初物と呼ぶような出たてのきゅうりで、料理屋などで使うのは、小さなのがよい。これは贅沢なシャレた食べ物の場合だが、いいきゅうりの漬けものを賞味しようと思ったら、やはりあとさきの揃ったものを選ぶべきだ。\n漬けものの漬かり加減は非常にむずかしく、気候とぬかみそ漬けの置き場で、漬かり方の速度に非常な差異ができるから、その点、注意深く心がける必要がある。不精して漬け過ぎると、きゅうりはすっぱくなるから、いい加減の時にぬかみそから取り出しておく。取り出しておいても味は急に変わらない。そのまま漬けておいたのでは酸っぱくなってしまう。ちょうどいいと思える時に取り出して、ぬかのついたまま包み、冷たいところに置いておく。そうすれば二、三時間｜経ってもうまく食べられる。そのわけは塩が中まで浸潤していかないので味が変わらないからである。\nそういったコツは、万人の苦労の集積から生み出されたものであろうが、そのコツを会得し、利用することはよいことである。しかし、なすの場合は出すと、間もなく色が変わるからそういうわけにはいかない。出し置きの利かないなすは、適当な時にぬかみそから出して食べることだ。",
+            "media": [
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2136,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 21,
+                        "filename": "/images/products/apple/001.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2137,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 22,
+                        "filename": "/images/products/apple/002.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2138,
+                    "isThumbnail": true,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 23,
+                        "filename": "/images/products/apple/003.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2139,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 24,
+                        "filename": "/images/products/apple/004.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2140,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 25,
+                        "filename": "/images/products/apple/005.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2141,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 26,
+                        "filename": "/images/products/apple/006.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2142,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 27,
+                        "filename": "/images/products/apple/007.jpg"
+                    }
+                }
+            ],
+            "offers": [
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1660,
+                    "price": 700,
+                    "startDate": "1970-01-09T15:00:00+00:00",
+                    "endDate": "1970-01-09T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1661,
+                    "price": 800,
+                    "startDate": "1970-01-10T15:00:00+00:00",
+                    "endDate": "1970-01-10T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1662,
+                    "price": 850,
+                    "startDate": "1970-01-11T15:00:00+00:00",
+                    "endDate": "1970-01-11T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1663,
+                    "price": 900,
+                    "startDate": "1970-01-12T15:00:00+00:00",
+                    "endDate": "1970-01-12T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1664,
+                    "price": 950,
+                    "startDate": "1970-01-13T15:00:00+00:00",
+                    "endDate": "1970-01-13T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1665,
+                    "price": 500,
+                    "startDate": "1970-01-14T15:00:00+00:00",
+                    "endDate": "1970-01-14T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1666,
+                    "price": 700,
+                    "startDate": "1970-01-15T15:00:00+00:00",
+                    "endDate": "1970-01-15T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1667,
+                    "price": 800,
+                    "startDate": "1970-01-16T15:00:00+00:00",
+                    "endDate": "1970-01-16T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1668,
+                    "price": 850,
+                    "startDate": "1970-01-17T15:00:00+00:00",
+                    "endDate": "1970-01-17T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1669,
+                    "price": 900,
+                    "startDate": "1970-01-18T15:00:00+00:00",
+                    "endDate": "1970-01-18T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1670,
+                    "price": 950,
+                    "startDate": "1970-01-19T15:00:00+00:00",
+                    "endDate": "1970-01-19T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1671,
+                    "price": 900,
+                    "startDate": "1970-01-20T15:00:00+00:00",
+                    "endDate": "1970-01-20T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1672,
+                    "price": 850,
+                    "startDate": "1970-01-21T15:00:00+00:00",
+                    "endDate": "1970-01-21T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1673,
+                    "price": 800,
+                    "startDate": "1970-01-22T15:00:00+00:00",
+                    "endDate": "1970-01-22T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1674,
+                    "price": 700,
+                    "startDate": "1970-01-23T15:00:00+00:00",
+                    "endDate": "1970-01-23T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1675,
+                    "price": 500,
+                    "startDate": "1970-01-24T15:00:00+00:00",
+                    "endDate": "1970-01-24T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1676,
+                    "price": 950,
+                    "startDate": "1970-01-25T15:00:00+00:00",
+                    "endDate": "1970-01-25T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1677,
+                    "price": 900,
+                    "startDate": "1970-01-26T15:00:00+00:00",
+                    "endDate": "1970-01-26T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1678,
+                    "price": 850,
+                    "startDate": "1970-01-27T15:00:00+00:00",
+                    "endDate": "1970-01-27T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1679,
+                    "price": 800,
+                    "startDate": "1970-01-28T15:00:00+00:00",
+                    "endDate": "1970-01-28T17:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1680,
+                    "price": 700,
+                    "startDate": "1970-01-29T15:00:00+00:00",
+                    "endDate": "1970-01-29T17:00:00+00:00"
+                }
+            ]
+        }
+    },
+    {
+        "__typename": "Recommendation",
+        "id": 9,
+        "product": {
+            "__typename": "Product",
+            "id": 270,
+            "name": "渡辺ナチュラルファームのブルーベリー",
+            "price": 1000,
+            "description": "今日では温室栽培の向上によって、くだもの、野菜など季節がなくなってしまった。早晩、俳諧歳時記など書き改めねばならなくなりそうだ。とはいっても、やはり旬のものに越したことはない。\nあえてきゅうりにはかぎらないが、旬がうまいということは、今も昔も変わらない。\nしかし、促成野菜を味なきもののようにいうのは、促成野菜の価値を認識しない批評であって、促成野菜は、いわゆる旬のものにない味わいを持っている。従って、軽々に取り扱うのは考えものである。\n昔は旬のきゅうりという一つのものであったが、今日では促成野菜というものができて、きゅうりもなすも二種類になっているわけである。その他にも一が二になっている促成野菜というものは多種多様に発明されている。\n従って促成と季節と楽しみは二つにふえているわけである。\nところできゅうりはまっすぐなのがよく、ひょうたん形のものはまずい。総じてよいきゅうりは形が平均している。真盛りになると、大きくなっても種がないうちはうまいが、種ができるように成長してしまっては落第である。一般に、温室など利用して作った小さなきゅうり、俗に初物と呼ぶような出たてのきゅうりで、料理屋などで使うのは、小さなのがよい。これは贅沢なシャレた食べ物の場合だが、いいきゅうりの漬けものを賞味しようと思ったら、やはりあとさきの揃ったものを選ぶべきだ。\n漬けものの漬かり加減は非常にむずかしく、気候とぬかみそ漬けの置き場で、漬かり方の速度に非常な差異ができるから、その点、注意深く心がける必要がある。不精して漬け過ぎると、きゅうりはすっぱくなるから、いい加減の時にぬかみそから取り出しておく。取り出しておいても味は急に変わらない。そのまま漬けておいたのでは酸っぱくなってしまう。ちょうどいいと思える時に取り出して、ぬかのついたまま包み、冷たいところに置いておく。そうすれば二、三時間｜経ってもうまく食べられる。そのわけは塩が中まで浸潤していかないので味が変わらないからである。\nそういったコツは、万人の苦労の集積から生み出されたものであろうが、そのコツを会得し、利用することはよいことである。しかし、なすの場合は出すと、間もなく色が変わるからそういうわけにはいかない。出し置きの利かないなすは、適当な時にぬかみそから出して食べることだ。",
+            "media": [
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2402,
+                    "isThumbnail": true,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 36,
+                        "filename": "/images/products/blueberry/001.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2403,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 37,
+                        "filename": "/images/products/blueberry/002.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2404,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 38,
+                        "filename": "/images/products/blueberry/003.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2405,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 39,
+                        "filename": "/images/products/blueberry/004.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2406,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 40,
+                        "filename": "/images/products/blueberry/005.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2407,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 41,
+                        "filename": "/images/products/blueberry/006.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2408,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 42,
+                        "filename": "/images/products/blueberry/007.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2409,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 43,
+                        "filename": "/images/products/blueberry/008.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2410,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 44,
+                        "filename": "/images/products/blueberry/009.jpg"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2411,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 73,
+                        "filename": "/videos/001.mp4"
+                    }
+                },
+                {
+                    "__typename": "ProductMedia",
+                    "id": 2412,
+                    "isThumbnail": false,
+                    "file": {
+                        "__typename": "MediaFile",
+                        "id": 74,
+                        "filename": "/videos/002.mp4"
+                    }
+                }
+            ],
+            "offers": [
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1870,
+                    "price": 700,
+                    "startDate": "1970-01-09T21:00:00+00:00",
+                    "endDate": "1970-01-09T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1871,
+                    "price": 800,
+                    "startDate": "1970-01-10T21:00:00+00:00",
+                    "endDate": "1970-01-10T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1872,
+                    "price": 850,
+                    "startDate": "1970-01-11T21:00:00+00:00",
+                    "endDate": "1970-01-11T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1873,
+                    "price": 900,
+                    "startDate": "1970-01-12T21:00:00+00:00",
+                    "endDate": "1970-01-12T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1874,
+                    "price": 950,
+                    "startDate": "1970-01-13T21:00:00+00:00",
+                    "endDate": "1970-01-13T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1875,
+                    "price": 500,
+                    "startDate": "1970-01-14T21:00:00+00:00",
+                    "endDate": "1970-01-14T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1876,
+                    "price": 700,
+                    "startDate": "1970-01-15T21:00:00+00:00",
+                    "endDate": "1970-01-15T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1877,
+                    "price": 800,
+                    "startDate": "1970-01-16T21:00:00+00:00",
+                    "endDate": "1970-01-16T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1878,
+                    "price": 850,
+                    "startDate": "1970-01-17T21:00:00+00:00",
+                    "endDate": "1970-01-17T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1879,
+                    "price": 900,
+                    "startDate": "1970-01-18T21:00:00+00:00",
+                    "endDate": "1970-01-18T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1880,
+                    "price": 950,
+                    "startDate": "1970-01-19T21:00:00+00:00",
+                    "endDate": "1970-01-19T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1881,
+                    "price": 900,
+                    "startDate": "1970-01-20T21:00:00+00:00",
+                    "endDate": "1970-01-20T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1882,
+                    "price": 850,
+                    "startDate": "1970-01-21T21:00:00+00:00",
+                    "endDate": "1970-01-21T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1883,
+                    "price": 800,
+                    "startDate": "1970-01-22T21:00:00+00:00",
+                    "endDate": "1970-01-22T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1884,
+                    "price": 700,
+                    "startDate": "1970-01-23T21:00:00+00:00",
+                    "endDate": "1970-01-23T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1885,
+                    "price": 500,
+                    "startDate": "1970-01-24T21:00:00+00:00",
+                    "endDate": "1970-01-24T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1886,
+                    "price": 950,
+                    "startDate": "1970-01-25T21:00:00+00:00",
+                    "endDate": "1970-01-25T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1887,
+                    "price": 900,
+                    "startDate": "1970-01-26T21:00:00+00:00",
+                    "endDate": "1970-01-26T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1888,
+                    "price": 850,
+                    "startDate": "1970-01-27T21:00:00+00:00",
+                    "endDate": "1970-01-27T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1889,
+                    "price": 800,
+                    "startDate": "1970-01-28T21:00:00+00:00",
+                    "endDate": "1970-01-28T23:00:00+00:00"
+                },
+                {
+                    "__typename": "LimitedTimeOffer",
+                    "id": 1890,
+                    "price": 700,
+                    "startDate": "1970-01-29T21:00:00+00:00",
+                    "endDate": "1970-01-29T23:00:00+00:00"
+                }
+            ]
+        }
+    }
+]

@@ -1,17 +1,18 @@
-import { useSuspenseQuery_experimental as useSuspenseQuery } from '@apollo/client';
-
-import type { GetRecommendationsQueryResponse } from '../graphql/queries';
-import { GetRecommendationsQuery } from '../graphql/queries';
+import useSWR from 'swr'
 
 export const useRecommendation = () => {
-  const recommendationsResult = useSuspenseQuery<GetRecommendationsQueryResponse>(GetRecommendationsQuery);
-
-  const hour = window.Temporal.Now.plainTimeISO().hour;
-  const recommendations = recommendationsResult?.data?.recommendations;
+  async function fetcher(url: string): Promise<any | null> {
+    const response = await fetch(url);
+    return response.json();
+  }
+  
+  const { data: recommendations } = useSWR('/recommendations.json', fetcher);
 
   if (recommendations == null) {
     return { recommendation: undefined };
   }
+  
+  const hour = window.Temporal.Now.plainTimeISO().hour;
 
   const recommendation = recommendations[hour % recommendations.length];
   return { recommendation };

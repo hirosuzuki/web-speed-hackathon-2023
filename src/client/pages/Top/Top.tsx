@@ -5,22 +5,19 @@ import useSWR from 'swr'
 import { Layout } from '../../components/application/Layout';
 import { ProductList } from '../../components/feature/ProductList';
 import { ProductHeroImage } from '../../components/product/ProductHeroImage';
-import { useFeatures } from '../../hooks/useFeatures';
 import { useRecommendation } from '../../hooks/useRecommendation';
 
 import * as styles from './Top.styles';
 
 export const Top: FC = () => {
   const { recommendation } = useRecommendation();
-  // const { features } = useFeatures();
-
 
   async function fetcher(url: string): Promise<any | null> {
     const response = await fetch(url);
     return response.json();
   }
   
-  const { data: features, error, isLoading } = useSWR('/top.json', fetcher);
+  const { data: features } = useSWR('/top.json', fetcher);
     
   if (recommendation === undefined || features === undefined || features === null) {
     return null;
