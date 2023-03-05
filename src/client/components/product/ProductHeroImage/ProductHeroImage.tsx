@@ -11,7 +11,7 @@ import { WidthRestriction } from '../../foundation/WidthRestriction';
 import * as styles from './ProductHeroImage.styles';
 
 async function loadImageAsDataURL(url: string): Promise<string> {
-  return url.substring(0, url.length - 4) + ".jpg";
+  return url.substring(0, url.length - 4) + "-h.webp";
 }
 
 type Props = {

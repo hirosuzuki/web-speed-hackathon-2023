@@ -34,7 +34,7 @@ export const MediaItem: FC<Props> = ({ file }) => {
   }
 
   const conv_tiny_image_filename = (fn: string) => {
-    return fn.substring(0, fn.length - 4) + "-t.jpg"
+    return fn.substring(0, fn.length - 4) + "-p.webp"
   }
 
   return (

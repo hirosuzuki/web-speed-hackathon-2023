@@ -21,7 +21,7 @@ export const ProductCard: FC<Props> = ({ product }) => {
   const price = activeOffer?.price ?? product.price;
 
   const conv_small_image_filename = (fn: string) => {
-    return fn.substring(0, fn.length - 4) + "-s.jpg"
+    return fn.substring(0, fn.length - 4) + "-s.webp"
   }
 
   return (

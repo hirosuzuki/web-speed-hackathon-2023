@@ -48,7 +48,7 @@ async function init(): Promise<void> {
   app.use(session({}, app));
 
   app.use(async (ctx, next) => {
-    if (/\.(jpg|gif|json|otf|html|txt|mp4|svg)$/i.test(ctx.path)) {
+    if (/\.(jpg|gif|json|otf|html|txt|mp4|svg|webp)$/i.test(ctx.path)) {
       ctx.set('Cache-Control', 'max-age=3600');
     } else {
      ctx.set('Cache-Control', 'no-store');
