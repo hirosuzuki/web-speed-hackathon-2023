@@ -30,6 +30,10 @@ export const CartItem: FC<Props> = ({ item, onRemove, onUpdate }) => {
     onUpdate(item.product.id, count);
   };
 
+  const conv_cart_image_filename = (fn: string) => {
+    return fn.substring(0, fn.length - 4) + "-c.webp"
+  }
+
   return (
     <GetDeviceType>
       {({ deviceType }) => {
@@ -51,7 +55,7 @@ export const CartItem: FC<Props> = ({ item, onRemove, onUpdate }) => {
                       })}
                     >
                       <AspectRatio ratioHeight={9} ratioWidth={16}>
-                        <Image fill src={thumbnailFile.filename} />
+                        <Image fill src={conv_cart_image_filename(thumbnailFile.filename)} />
                       </AspectRatio>
                       {activeOffer !== undefined && (
                         <div className={styles.offerLabel()}>

@@ -18,6 +18,8 @@ for fn in files:
 
         new_fn = orig_fn[5:-4] + ".webp"
         subprocess.call(["convert", orig_fn, "-define", "webp:emulate-jpeg-size=true", "-quality", "80", new_fn])
+        new_fn = orig_fn[5:-4] + "-c.webp"
+        subprocess.call(["convert", orig_fn, "-thumbnail", "256x144^", "-gravity", "center", "-extent", "256x144", "-define", "webp:emulate-jpeg-size=true", "-quality", "80", new_fn])
         new_fn = orig_fn[5:-4] + "-s.webp"
         subprocess.call(["convert", orig_fn, "-thumbnail", "224x126^", "-gravity", "center", "-extent", "224x126", "-define", "webp:emulate-jpeg-size=true", "-quality", "80", new_fn])
         new_fn = orig_fn[5:-4] + "-p.webp"
