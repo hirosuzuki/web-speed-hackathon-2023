@@ -12,7 +12,7 @@ export const useRecommendation = () => {
     return { recommendation: undefined };
   }
   
-  const hour = window.Temporal.Now.plainTimeISO().hour;
+  const hour = new Date().getHours();
 
   const recommendation = recommendations[hour % recommendations.length];
   return { recommendation };

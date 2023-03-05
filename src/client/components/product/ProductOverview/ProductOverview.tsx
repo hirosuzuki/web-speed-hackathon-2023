@@ -21,14 +21,17 @@ export const ProductOverview: FC<Props> = ({ activeOffer, product }) => {
       return;
     }
 
-    const endTime = window.Temporal.Instant.from(activeOffer.endDate).toLocaleString('ja-jp', {
-      day: '2-digit',
-      hour: '2-digit',
-      minute: '2-digit',
-      month: '2-digit',
-      second: '2-digit',
-      year: 'numeric',
-    });
+    const formatDate = (t: string) => {
+      const digit2 = (v: number) => {
+        if (v < 10) {
+          return "0" + v.toString()
+        }
+        return v.toString()
+      }
+      const d = new Date(t)
+      return d.getFullYear() + "/" + digit2(d.getMonth()) + "/" + digit2(d.getDate()) + " " + digit2(d.getHours()) + ":" + digit2(d.getMinutes()) + ":" + digit2(d.getSeconds())
+    }
+    const endTime = formatDate(activeOffer.endDate)
 
     return (
       <div className={styles.offerLabel()}>
