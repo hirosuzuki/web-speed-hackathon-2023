@@ -1,5 +1,4 @@
 import { useFormik } from 'formik';
-import _ from 'lodash';
 import type { ChangeEventHandler, FC } from 'react';
 // import zipcodeJa from 'zipcode-ja';
 

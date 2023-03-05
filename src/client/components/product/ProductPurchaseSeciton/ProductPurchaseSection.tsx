@@ -1,6 +1,4 @@
-import _ from 'lodash';
 import type { FC } from 'react';
-import { memo } from 'react';
 
 import type { ProductFragmentResponse } from '../../../graphql/fragments';
 import { Icon } from '../../foundation/Icon';
@@ -18,7 +16,7 @@ type Props = {
   onOpenSignInModal: () => void;
 };
 
-export const ProductPurchaseSection: FC<Props> = memo(
+export const ProductPurchaseSection: FC<Props> = 
   ({ amountInCart, isAuthUser, onOpenSignInModal, onUpdateCartItem, product }) => {
     if (product === undefined) {
       return null;
@@ -65,8 +63,6 @@ export const ProductPurchaseSection: FC<Props> = memo(
         </div>
       </div>
     );
-  },
-  _.isEqual,
-);
+  };
 
 ProductPurchaseSection.displayName = 'ProductPurchaseSection';

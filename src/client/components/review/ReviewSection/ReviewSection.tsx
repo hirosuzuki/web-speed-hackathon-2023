@@ -1,8 +1,6 @@
 import type { FormikErrors } from 'formik';
 import { useFormik } from 'formik';
-import _ from 'lodash';
 import type { FC } from 'react';
-import { memo } from 'react';
 import * as z from 'zod';
 
 import type { ReviewFragmentResponse } from '../../../graphql/fragments';
@@ -26,7 +24,7 @@ type ReviewForm = {
   comment: string;
 };
 
-export const ReviewSection: FC<Props> = memo(({ hasSignedIn, onSubmitReview, reviews }) => {
+export const ReviewSection: FC<Props> = ({ hasSignedIn, onSubmitReview, reviews }) => {
   const formik = useFormik<ReviewForm>({
     initialValues: {
       comment: '',
@@ -71,6 +69,6 @@ export const ReviewSection: FC<Props> = memo(({ hasSignedIn, onSubmitReview, rev
       )}
     </div>
   );
-}, _.isEqual);
+};
 
 ReviewSection.displayName = 'ReviewSection';
